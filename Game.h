@@ -14,6 +14,11 @@ class Game {
     stack<Card> createDeck();
     
 
+    // Make sure to handle aces in this method
+    void startGame(stack<Card> deck);
+
+
+
 };
 
 

@@ -8,14 +8,10 @@ using namespace std;
 
 int main() {
     Game game;
+    //Initalize the deck and start the game
     stack<Card> Deck = game.createDeck();
-    // cout << "Deck size: " + Deck.size() << "\n";
-    while (!Deck.empty()) {
-        Card topCard = Deck.top();
-        topCard.display();
-        cout << "\n"; // Newline 
-        Deck.pop();
-    }
 
+   game.startGame(Deck);
+    
     return 0; 
 }

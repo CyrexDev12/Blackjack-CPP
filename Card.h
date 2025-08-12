@@ -18,6 +18,20 @@ class Card {
 
        void display() const; 
 
+       // Getters
+       int getCardValue() {
+        return value;
+       }
+
+       string getCardName() {
+        return name; 
+       }
+
+       string getCardSuit() {
+        return suit; 
+       }
+
+
 };
 
  
