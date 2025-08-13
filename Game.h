@@ -11,12 +11,12 @@ using namespace std;
 class Game {
     public: 
 
+    // Card operations 
     stack<Card> createDeck();
     
 
     // Make sure to handle aces in this method
     void startGame(stack<Card> deck);
-
 
 
 };

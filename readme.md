@@ -9,6 +9,7 @@ Feel free to take the code and do whatever you want with it.
 Update(s) to come: 
 - Add chips so the player can bet
 - Implement doubling down, splitting, etc...
+- Make it so the player can continously play
 - Implement a game interface
 
 Commitment Log: 
