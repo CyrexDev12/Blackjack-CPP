@@ -15,3 +15,4 @@ Update(s) to come:
 Commitment Log: 
 
 8/12/25 - Commitment 1: Includes basic game function. 
+8/13/25 - Commitment 2: Debugs, full game basic function made
